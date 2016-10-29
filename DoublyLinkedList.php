@@ -52,7 +52,7 @@ class DoublyLinkedList
      */
     public function removeFirst()
     {
-        if ( ! $this->count() || $this->count() < 1) {
+        if ($this->count() < 1) {
             throw new LogicException('Cannot remove from an empty list.');	
         }
 
@@ -109,7 +109,7 @@ class DoublyLinkedList
      */
     public function removeLast()
     {
-        if ( ! $this->count() || $this->count() < 1) {
+        if ($this->count() < 1) {
             throw new LogicException('Cannot remove from an empty list.');	
         }
 
@@ -227,7 +227,7 @@ class DoublyLinkedList
      */
     public function forEach(Callable $callback) {
         if ($this->count() < 1) {
-            throw new LogicException('The list is empty and could not be iterated.');
+            throw new LogicException('Cannot iterate an empty list.');
         }
 
         $currentNode = $this->head();
