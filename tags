@@ -1,0 +1,101 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+DoublyLinkedList	DoublyLinkedList.php	/^class DoublyLinkedList$/;"	c
+DoublyLinkedListTest	tests/unit/DoublyLinkedListTest.php	/^class DoublyLinkedListTest extends TestCase$/;"	c
+Node	Node.php	/^class Node$/;"	c
+NodeTest	tests/unit/NodeTest.php	/^class NodeTest extends TestCase$/;"	c
+__construct	Node.php	/^    public function __construct($value)$/;"	f
+__constructor	DoublyLinkedList.php	/^    public function __constructor()$/;"	f
+addFirst	DoublyLinkedList.php	/^    public function addFirst($value)$/;"	f
+addLast	DoublyLinkedList.php	/^    public function addLast($value)$/;"	f
+changeHead	DoublyLinkedListHelpers.php	/^    private function changeHead($newNode)$/;"	f
+changeTailIfNeeded	DoublyLinkedListHelpers.php	/^    private function changeTailIfNeeded($newNode)$/;"	f
+count	DoublyLinkedList.php	/^        $this->count = 0;    $/;"	v
+count	DoublyLinkedList.php	/^    private $count;$/;"	v
+count	DoublyLinkedListHelpers.php	/^        $this->count = $count;$/;"	v
+count	DoublyLinkedListHelpers.php	/^    public function count()$/;"	f
+currentNode	DoublyLinkedList.php	/^            $currentNode = $currentNode->next();$/;"	v
+currentNode	DoublyLinkedList.php	/^        $currentNode = $this->head();$/;"	v
+currentNode	DoublyLinkedList.php	/^        if ($currentNode && $currentNode == $node) {$/;"	v
+decrementCount	DoublyLinkedListHelpers.php	/^    private function decrementCount()$/;"	f
+dl	tests/unit/DoublyLinkedListTest.php	/^    	$dl = new DoublyLinkedList();$/;"	v
+dl	tests/unit/DoublyLinkedListTest.php	/^        $dl = new DoublyLinkedList();$/;"	v
+dl	tests/unit/DoublyLinkedListTest.php	/^        $dl = new DoublyLinkedList;$/;"	v
+dl2	tests/unit/DoublyLinkedListTest.php	/^    	$dl2 = new DoublyLinkedList();$/;"	v
+expected	tests/unit/DoublyLinkedListTest.php	/^        $expected = [$/;"	v
+firstNode	tests/unit/DoublyLinkedListTest.php	/^    	$firstNode = $dl->addFirst(1);$/;"	v
+forEach	DoublyLinkedList.php	/^    public function forEach(Callable $callback) {$/;"	f
+head	DoublyLinkedList.php	/^    private $head;$/;"	v
+head	DoublyLinkedListHelpers.php	/^        $this->head = $head;$/;"	v
+head	DoublyLinkedListHelpers.php	/^    public function head()$/;"	f
+headHasNextItem	DoublyLinkedListHelpers.php	/^    private function headHasNextItem()$/;"	f
+headValueFirst	tests/unit/DoublyLinkedListTest.php	/^        $headValueFirst = $dl->head()->value();$/;"	v
+headValueSecond	tests/unit/DoublyLinkedListTest.php	/^        $headValueSecond = $dl->head()->value();$/;"	v
+headValueThird	tests/unit/DoublyLinkedListTest.php	/^        $headValueThird = $dl->head()->value();$/;"	v
+incrementCount	DoublyLinkedListHelpers.php	/^    private function incrementCount()$/;"	f
+index	DoublyLinkedList.php	/^        $index = 0;$/;"	v
+initialCount	DoublyLinkedList.php	/^        $initialCount = $this->count();$/;"	v
+it_can_add_first_item	tests/unit/DoublyLinkedListTest.php	/^    public function it_can_add_first_item() $/;"	f
+it_can_add_last_item	tests/unit/DoublyLinkedListTest.php	/^    public function it_can_add_last_item()$/;"	f
+it_can_add_prev_and_next_simultaneously	tests/unit/NodeTest.php	/^    public function it_can_add_prev_and_next_simultaneously()$/;"	f
+it_can_change_head	tests/unit/DoublyLinkedListTest.php	/^    public function it_can_change_head()$/;"	f
+it_can_change_tail_if_needed	tests/unit/DoublyLinkedListTest.php	/^    public function it_can_change_tail_if_needed()$/;"	f
+it_can_decrement_count	tests/unit/DoublyLinkedListTest.php	/^    public function it_can_decrement_count()$/;"	f
+it_can_increment_count	tests/unit/DoublyLinkedListTest.php	/^    public function it_can_increment_count()$/;"	f
+it_can_iterate	tests/unit/DoublyLinkedListTest.php	/^    public function it_can_iterate()$/;"	f
+it_can_keep_reference_to_the_next_node	tests/unit/NodeTest.php	/^    public function it_can_keep_reference_to_the_next_node()$/;"	f
+it_can_keep_reference_to_the_previous_node	tests/unit/NodeTest.php	/^    public function it_can_keep_reference_to_the_previous_node()$/;"	f
+it_can_remove	tests/unit/DoublyLinkedListTest.php	/^    public function it_can_remove()$/;"	f
+it_can_remove_by_node	tests/unit/DoublyLinkedListTest.php	/^    public function it_can_remove_by_node()$/;"	f
+it_can_remove_by_value	tests/unit/DoublyLinkedListTest.php	/^    public function it_can_remove_by_value()$/;"	f
+it_can_remove_first_item	tests/unit/DoublyLinkedListTest.php	/^    public function it_can_remove_first_item()$/;"	f
+it_can_remove_last_item	tests/unit/DoublyLinkedListTest.php	/^    public function it_can_remove_last_item()$/;"	f
+it_can_set_nodes_value	tests/unit/NodeTest.php	/^    public function it_can_set_nodes_value()$/;"	f
+newNode	DoublyLinkedList.php	/^        $newNode = new Node($value);$/;"	v
+next	Node.php	/^        $this->next = $next;$/;"	v
+next	Node.php	/^    private $next;$/;"	v
+next	Node.php	/^    public function next()$/;"	f
+next	tests/unit/NodeTest.php	/^        $next = new Node(3);$/;"	v
+nextNode	DoublyLinkedList.php	/^                $nextNode = $currentNode->next();$/;"	v
+nextNode	DoublyLinkedList.php	/^            $nextNode = $this->head()->next();$/;"	v
+nextNode	DoublyLinkedList.php	/^        $nextNode = null;$/;"	v
+nextNode	tests/unit/NodeTest.php	/^        $nextNode = $node->setNext(new Node(6))->next();$/;"	v
+node	tests/unit/NodeTest.php	/^        $node = new Node(2);$/;"	v
+node	tests/unit/NodeTest.php	/^        $node = new Node(5);$/;"	v
+prev	Node.php	/^        $this->prev = $prev;$/;"	v
+prev	Node.php	/^    private $prev;$/;"	v
+prev	Node.php	/^    public function prev()$/;"	f
+prev	tests/unit/NodeTest.php	/^        $prev = new Node(1);$/;"	v
+prevNode	DoublyLinkedList.php	/^                $prevNode = $currentNode->prev();$/;"	v
+prevNode	DoublyLinkedList.php	/^            $prevNode = $this->tail()->prev();$/;"	v
+prevNode	DoublyLinkedList.php	/^        $prevNode = null;$/;"	v
+prevNode	tests/unit/NodeTest.php	/^        $prevNode = $node->setPrev(new Node(6))->prev();$/;"	v
+remove	DoublyLinkedList.php	/^    public function remove($removable)$/;"	f
+removeByNode	DoublyLinkedList.php	/^    public function removeByNode(Node $node)$/;"	f
+removeByValue	DoublyLinkedList.php	/^    public function removeByValue($value)$/;"	f
+removeFirst	DoublyLinkedList.php	/^    public function removeFirst()$/;"	f
+removeLast	DoublyLinkedList.php	/^    public function removeLast()$/;"	f
+removedNode	DoublyLinkedList.php	/^        $removedNode = $this->head();$/;"	v
+removedNode	DoublyLinkedList.php	/^        $removedNode = $this->tail();$/;"	v
+results	tests/unit/DoublyLinkedListTest.php	/^        $results = [];$/;"	v
+secondNode	tests/unit/DoublyLinkedListTest.php	/^    	$secondNode = $dl->addFirst(2);$/;"	v
+setCount	DoublyLinkedListHelpers.php	/^    public function setCount($count)$/;"	f
+setHead	DoublyLinkedListHelpers.php	/^    public function setHead($head)$/;"	f
+setHeadAndTail	DoublyLinkedListHelpers.php	/^    private function setHeadAndTail($head, $tail)$/;"	f
+setNext	Node.php	/^    public function setNext($next)$/;"	f
+setPrev	Node.php	/^    public function setPrev($prev)$/;"	f
+setReferences	Node.php	/^    public function setReferences($prev, $next)$/;"	f
+setTail	DoublyLinkedListHelpers.php	/^    public function setTail($tail)$/;"	f
+smaller	DoublyLinkedList.php	/^ * @TODO: Think how to make the class smaller and more fragmented.$/;"	c
+tail	DoublyLinkedList.php	/^    private $tail;$/;"	v
+tail	DoublyLinkedListHelpers.php	/^        $this->tail = $tail;$/;"	v
+tail	DoublyLinkedListHelpers.php	/^    public function tail()$/;"	f
+tailHasPrevItem	DoublyLinkedListHelpers.php	/^    private function tailHasPrevItem()$/;"	f
+thirdNode	tests/unit/DoublyLinkedListTest.php	/^    	$thirdNode = $dl->addFirst(3);$/;"	v
+value	Node.php	/^        $this->value = $value;$/;"	v
+value	Node.php	/^    private $value;$/;"	v
+value	Node.php	/^    public function value()$/;"	f
