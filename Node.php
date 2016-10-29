@@ -1,8 +1,13 @@
 <?php
 
+/**
+ * Class Node
+ *
+ * @author Borislav Grigorov <borislav.b.grigorov@gmail.com> 
+ */
 class Node
 {
-	/** @var mixed */
+    /** @var mixed */
     private $value;
 
     /** @var Node|null */

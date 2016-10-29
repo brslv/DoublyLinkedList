@@ -1,5 +1,10 @@
 <?php
 
+/**
+ * Trait DoublyLinkedListHelpers
+ *
+ * @author Borislav Grigorov <borislav.b.grigorov@gmail.com> 
+ */
 trait DoublyLinkedListHelpers
 {
     /**

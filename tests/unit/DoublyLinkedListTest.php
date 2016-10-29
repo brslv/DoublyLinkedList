@@ -66,7 +66,7 @@ class DoublyLinkedListTest extends TestCase
     	
     	$secondNode = $dl->addFirst(2);
     	
-    	$this->assertEmpty(null, $secondNode->prev()); // because it's first
+    	$this->assertEmpty(null, $secondNode->prev());
     	$this->assertInstanceOf(Node::class, $secondNode->next());
     }
 
@@ -75,39 +75,26 @@ class DoublyLinkedListTest extends TestCase
     {
         $dl = new DoublyLinkedList();
 
-        /** First addition. */
-
         $dl->addFirst(1);
         $headValueFirst = $dl->head()->value();
 
-        // Assert the head's value is correct.
         $this->assertEquals(1, $headValueFirst);
-        // Assert the prev/next of the head/tail is set to null.
         $this->assertEquals(null, $dl->head()->prev());
         $this->assertEquals(null, $dl->head()->next());
         $this->assertEquals(null, $dl->tail()->prev());
         $this->assertEquals(null, $dl->tail()->next());
 
-        /** Second addition. */
-
         $dl->addFirst(2);
         $headValueSecond = $dl->head()->value();
 
-        // Assert the value of the newly added node is correct.
         $this->assertEquals(2, $headValueSecond);
-        // Assert the value of the new head is correct.
         $this->assertEquals($headValueSecond, $dl->head()->value());
-        // Assert the value of the tail is set correct (to the old head, because we have only two nodes, won't be like this if we had more nodes).
         $this->assertEquals($headValueFirst, $dl->tail()->value());
-        // Assert the prev of the tail is set to the new node (won't be valid if third element is added).
         $this->assertEquals($headValueSecond, $dl->tail()->prev()->value());
-        // Assert the prev/next of the new head/tail is correct.
         $this->assertEquals(null, $dl->head()->prev());
         $this->assertInstanceOf(Node::class, $dl->head()->next());
         $this->assertInstanceOf(Node::class, $dl->tail()->prev());
         $this->assertEquals(null, $dl->tail()->next());
-
-        /** Third addition */
 
         $dl->addFirst(3);
         $headValueThird = $dl->head()->value();
@@ -115,9 +102,7 @@ class DoublyLinkedListTest extends TestCase
         $this->assertEquals(3, $headValueThird);
         $this->assertEquals(1, $dl->tail()->value());
         $this->assertEquals(2, $dl->head()->next()->value());
-        // Assert the second node points to the first node (head).
         $this->assertEquals(3, $dl->head()->next()->prev()->value());
-        // Assert the second node points to the last node (tail).
         $this->assertEquals(1, $dl->head()->next()->next()->value());
     }
     

@@ -90,7 +90,6 @@ setNext	Node.php	/^    public function setNext($next)$/;"	f
 setPrev	Node.php	/^    public function setPrev($prev)$/;"	f
 setReferences	Node.php	/^    public function setReferences($prev, $next)$/;"	f
 setTail	DoublyLinkedListHelpers.php	/^    public function setTail($tail)$/;"	f
-smaller	DoublyLinkedList.php	/^ * @TODO: Think how to make the class smaller and more fragmented.$/;"	c
 tail	DoublyLinkedList.php	/^    private $tail;$/;"	v
 tail	DoublyLinkedListHelpers.php	/^        $this->tail = $tail;$/;"	v
 tail	DoublyLinkedListHelpers.php	/^    public function tail()$/;"	f

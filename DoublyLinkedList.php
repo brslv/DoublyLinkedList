@@ -3,9 +3,7 @@
 /**
  * Class DoublyLinkedList.
  * 
- * @TODO: Refactor the methods removeFirst() and removeLast().
- * @TODO: Think how to make the class smaller and more fragmented.
- * @author <borislav.b.grigorov@gmail.com>
+ * @author Borislav Grigorov <borislav.b.grigorov@gmail.com>
  */
 class DoublyLinkedList
 {
@@ -242,7 +240,4 @@ class DoublyLinkedList
             $index++;
         }
     }
-
-    /** HELPERS BELLOW (maybe extract in a trait?). */ 
-
 }
